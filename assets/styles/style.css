@@ -16,6 +16,7 @@
 .nav {
     display: inline-block;
     margin-top: 60px;
+    margin-bottom: 40px;
 
 }
 
@@ -30,10 +31,10 @@
 }
 
 .logo {
-    display: inline-flex;
-    justify-content: flex-start;
+    display: inline-block;
     padding-top: 33px;
-    margin: 0 auto;
+    width: 244px;
+    height: 45px;
 }
 
 .phone p {
@@ -47,16 +48,38 @@
     height: 20px;
 }
 
-.headerflex {
-float: right;
+.order img {
+    width: 35px;
+    height: 38px;
 }
 
-.headerflex:nth-child(1) {
-    justify-content: flex-start;
+.account img {
+    width: 30px;
+    height: 31px;
+    margin-top: 5px;
+}
+
+.headerflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerflex>div {
+    display: flex;
+}
+
+.position {
+    margin-top: 36px;
 }
 
 .search {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 30px;
+    margin-top: 48px;
+}
+
+.navflex {
+    display: flex;
+    justify-content: space-between;
 }
