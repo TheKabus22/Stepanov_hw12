@@ -94,3 +94,25 @@
     display: flex;
     justify-content: space-between;
 }
+
+.menu {
+    margin-top: 75px;
+}
+
+.menu p {
+    display: inline-block;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #BDBDBD;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background: #BDBDBD;
+    border-radius: 50%;
+    display: inline-block;
+}
