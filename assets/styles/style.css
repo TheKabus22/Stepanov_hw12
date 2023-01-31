@@ -209,6 +209,18 @@
     row-gap: 46px;
 }
 
+.new {
+    position: absolute;
+    width: 89px;
+    height: 35px;
+    left: 920px;
+    top: 410px;
+}
+
+.products:nth-child(1) {
+    position: relative;
+}
+
 .product {
     border-radius: 20px;
     margin: 0 auto;
@@ -288,13 +300,95 @@ input:checked+label {
     margin: 0;
 }
 
+
 .pages {
     margin-top: 50px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
+}
+
+.pagesflex {
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.text h1 {
+    display: block;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #219653;
+}
+
+.text p {
+    display: block;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #828282;
 }
 
 .footer {
     background: #333333;
     height: 255px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 132px;
+}
+
+.delivery {
+    display: flex;
+    justify-content: space-around;
+    gap: 47px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+
+.delivery p {
+    margin: 0;
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+}
+
+
+.phone2 a {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 11px;
+    margin-right: 67px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+}
+
+.phone2-img {
+    margin: 0 auto;
+    color: #FFFFFF;
 }
